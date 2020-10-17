@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,14 +8,23 @@
     <link rel="stylesheet" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.8/dist/css/uikit.min.css" />
+
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.8/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.8/dist/js/uikit-icons.min.js"></script>
+    <script src="uikit/dist/js/uikit-icons.min.js"></script>
 </head>
+
 <body>
     <header>
-        <div class="imgContainerLogo"><img src="images/Fluki logo.png" alt=""></div>
+        <div class="imgContainerLogo"><a href="index.html"><img src="images/Fluki logo.png" alt=""></a></div>
         <ul>
-            <li>Home</li>
-            <li>Nosotros</li>
-            <li>Extra</li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="">Nosotros</a></li>
+            <li><a href="">Extra</a></li>
         </ul>
     </header>
 
@@ -26,31 +36,42 @@
                 <h2>¿Los nuevos procesos de trabajo favorecen las operaciones?</h2>
             </div>
         </div>
-        
 
-        <div class="bullets">
-            <h3>Subtitulo 2</h3>
-            <p>Parrafo</p>
-        </div>
-        <div class="bullets"></div>
-            <h3>Subtitulo 2</h3>
-            <p>Parrafo</p>
-        <div class="bullets">
-            <h3>Subtitulo 2</h3>
-            <p>Parrafo</p>
-        </div>
+        <div class="extra">
+            <div class="info">
+                <div class="bullets">
+                    <span uk-icon="icon: world" id="world"></span>
+                    <h3>Entorno</h3>
+                    <p>¿Cómo afectan las nuevas tecnologías a la forma de trabajar?</p>
+                    <p>¿Cómo dar una mejor respuesta a los cambios?</p>
+                </div>
+                <div class="bullets">
+                    <span uk-icon="icon: users" id="users"></span>
+                    <h3>Personal</h3>
+                    <p>Los perfiles y habilidades que impulsan este movimiento.</p>
+                    <p>Las mejores formas de capacitar a los empleados.</p>
+                </div>
+                <div class="bullets">
+                    <span uk-icon="icon: bolt" id="bolt"></span>
+                    <h3>Optimización</h3>
+                    <p>Innovar en operaciones para seguir con el liderazgo.</p>
+                    <p>¿Cómo dar al cliente lo que realmente necesita?</p>
+                </div>
+            </div>
 
-        <div class="button">
-            <button></button>
-        </div>
+            <div class="button">
+                <button></button>
+            </div>
 
-        <div class="phrase">
-            <h2 class="text">Frase epica</h2>
-            <div class="imgInterview"></div>
+            <div class="phrase">
+                <h2 class="text">Frase epica</h2>
+                <div class="imgInterview"></div>
+            </div>
         </div>
 
     </div>
 
     <footer></footer>
 </body>
+
 </html>
