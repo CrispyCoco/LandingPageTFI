@@ -1,0 +1,32 @@
+.container {
+    flex-direction: column;
+    align-items: center;
+    /* padding: 0; */
+}
+
+.mainInfo {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+/* .mainInfo h3 {
+    justify-self: flex-start;
+    align-self: flex-start;
+} */
+
+.team {
+    width: 80%;
+    align-self: center;
+    border: solid 3px red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.teammate {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
