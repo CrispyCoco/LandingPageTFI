@@ -1,33 +1,137 @@
-.container {
+.container-about {
     flex-direction: column;
     align-items: center;
     /* padding: 0; */
 }
 
+.container-about .about-us{
+    font-family: 'Raleway', sans-serif;
+    /* width: fit-content; */
+    /* margin: 30px 0; */
+    text-align: center;
+    font-size: 50px;
+}
+
+.proposal{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+}
 .mainInfo {
     display: flex;
     flex-direction: column;
     width: 100%;
+    margin-top: 100px;
 }
 
+.team-title{
+    font-family: 'Mulish', sans-serif;
+    font-size: 40px;
+}
 /* .mainInfo h3 {
     justify-self: flex-start;
     align-self: flex-start;
 } */
 
 .team {
-    width: 80%;
+    width: 90%;
     align-self: center;
-    border: solid 3px red;
+    /* border: solid 3px red; */
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 60px;
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
 }
 
+/* .row{
+    display: flex;
+    justify-content: space-around;
+} */
+
+.row{
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    /* border: blue solid 1px; */
+    flex-direction: column;
+    padding: 40px 0;
+    /* justify-content: center; */
+}
+
+.row h4{
+    font-size: 30px;
+    font-family: 'Mulish', sans-serif;
+}
+
+.product-owner{
+    align-self: center;
+}
+
+.scrum-master{
+    align-self: center;
+}
+.scrum-team{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.scrum-team .dev{
+    margin: 30px 0;
+}
 .teammate {
-    width: 49%;
+    margin: 0;
+    width: 24%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: solid blue 1px;
+    border-radius: 15px;
+    border: 1px solid rgba(128, 128, 128, 0.467);
+    padding: 30px;
+    -webkit-box-shadow: 7px 7px 5px 0px rgba(102, 102, 102, 0.54);
+    -moz-box-shadow: 7px 7px 5px 0px rgba(102, 102, 102, 0.54);
+    box-shadow: 7px 7px 5px 0px rgba(102, 102, 102,);
+}
+/* 
+.bottom{
+    margin: 30px 15px 0 15px;
+} */
+
+.teammate .profileContainer{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    /* width: 120%; */
+}
+.teammate .profileTeam{
+    width: 50%;
+    border-radius: 50%;
+}
+
+.teammate #joaquin{
+    height: 126.906px;
+}
+
+.teammate .text h5{
+    font-family: 'Mulish', sans-serif;
+    font-weight: bold;
+}
+
+.teammate .text p{
+    font-family: 'Mulish', sans-serif;
+    color: black;
+    font-size: 15px;
+    text-align: center;
+}
+
+.teammate .social a{
+    color: rgb(239,65,97);
+}
+
+.teammate .social a .uk-icon svg{
+    width: 30px;
+    margin: 0 10px;
 }

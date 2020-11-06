@@ -10,7 +10,7 @@ header {
     z-index: 2001;
     background-color: white;
     display: grid;
-    grid-template-columns: 20% 80%;
+    grid-template-columns: 40% 60%;
     align-items: center;
     justify-content: center;
     /* border-bottom: solid 1px rgba(0, 0, 0, 0.397); */
@@ -20,20 +20,26 @@ header {
 
 }
 
-.imgContainerLogo {
+.imgContainerLogo a{
     display: flex;
     justify-content: center;
 }
 
-.imgContainerLogo img {
+.imgContainerLogo #logo {
     width: 85px;
     height: 85px;
     border-radius: 50%;
 }
 
+.imgContainerLogo #iso{
+    width: 50%;
+    height: 60%;
+    align-self: center;
+}
+
 ul {
     list-style-type: none;
-    width: 60%;
+    width: 80%;
     margin: 0;
     padding: 0;
     display: flex;

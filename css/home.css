@@ -23,7 +23,7 @@
 }
 
 .titles {
-    height: 100%;
+    /* height: 100%; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -36,7 +36,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 50%;
+    /* height: 50%; */
+    margin-bottom: 60px;
 }
 
 .titles h1 {
@@ -72,12 +73,25 @@
     text-decoration: none;
 }
 
+.boton{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boton h3{
+    color: white;
+    font-family: 'Mulish', sans-serif;
+    font-size: 18px;
+}
+
 .extra {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 180px;
+    padding-top: 180px;
 }
 
 .extra h2{
@@ -147,7 +161,7 @@
     margin-top: 150px;
     margin-bottom: 150px;
 }
-
+/* 
 .author #user {
     background-color: gray;
     color: white;
@@ -158,8 +172,12 @@
 
 .author #user svg {
     width: 80px;
-}
+} */
 
+.author img{
+    width: 20%;
+    border-radius: 50%;
+}
 .phrase {
     background-color: rgba(30, 67, 132, 0.767);
     width: 70%;
@@ -170,6 +188,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 0;
 }
 
 .phrase h2 {
